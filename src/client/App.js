@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import Create_room from "./client/create_room";
-import Join_room from './client/join_room_1.js';
-import Message_rev from "./client/message_recived";
-import './client/Moulikcss/button.css';
-import './client/Moulikcss/coolinput.css'
-import './client/Moulikcss/modifyButtons.css';
-import './client/Moulikcss/roomCodeText.css';
-import "./client/App.css"
+import Create_room from "./create_room";
+import Join_room from './join_room_1.js';
+import Message_rev from "./message_recived";
+import './Moulikcss/button.css';
+import './Moulikcss/coolinput.css'
+import './Moulikcss/modifyButtons.css';
+import './Moulikcss/roomCodeText.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import "./App.css"
 
 const Disposable_Forms = () => {
   const [press, setpress] = useState(false);
